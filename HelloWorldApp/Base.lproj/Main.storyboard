@@ -33,6 +33,9 @@
                                 <state key="normal" title="Show Hello">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xk3-1O-1Fs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -44,6 +47,10 @@
                             <constraint firstItem="MRO-Tm-bnc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="151" id="uR4-jn-MBE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="MRO-Tm-bnc" id="1GG-Z4-JQ3"/>
+                        <outlet property="startButton" destination="OYK-K5-DzC" id="uUK-E1-kWe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
